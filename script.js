@@ -13,7 +13,7 @@ for (var row = 1; row <= totalRows; row++) {
 function genTile(color) {
   var width = (100 / totalCols) + '%';
   var tile = document.createElement('div');
-  tile.style.width = width
+  tile.style.width = width;
   tile.style.float = 'left';
   tile.style.paddingBottom = width;
   tile.style.backgroundColor = color;
